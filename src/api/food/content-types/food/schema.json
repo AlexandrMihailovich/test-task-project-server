@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foods",
+  "info": {
+    "singularName": "food",
+    "pluralName": "foods",
+    "displayName": "Food",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "food": {
+      "type": "string"
+    },
+    "calories": {
+      "type": "integer"
+    },
+    "fat": {
+      "type": "integer"
+    },
+    "carbs": {
+      "type": "integer"
+    },
+    "fiber": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "protein": {
+      "type": "decimal"
+    }
+  }
+}
